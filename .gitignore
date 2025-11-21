@@ -1,0 +1,85 @@
+# -----------------------------
+# Python Cache
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Deep Learning Model Weights
+# -----------------------------
+*.h5
+*.weights
+*.ckpt
+*.onnx
+*.tflite
+
+# -----------------------------
+# YOLO Files
+# -----------------------------
+*.cfg
+*.names
+*.data
+
+# -----------------------------
+# Videos / Media
+# -----------------------------
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.wav
+
+# -----------------------------
+# Images (Skip if needed)
+# -----------------------------
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+
+# Allow only source code images if needed
+!README_images/
+
+# -----------------------------
+# Database / Logs
+# -----------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# -----------------------------
+# Dataset Folders
+# -----------------------------
+fire detection videos/
+dataset/
+train/
+test/
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+env/
+venv/
+.venv/
+
+# -----------------------------
+# Jupyter Notebook Checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# VSCode / PyCharm
+# -----------------------------
+.vscode/
+.idea/
